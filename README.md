@@ -17,7 +17,6 @@ def save_json(data, filename):
     print(f"  Saved → {filepath}")
     return filepath
 
-
 def fetch_github_trending():
     """
     Fetch trending GitHub repositories using the public GitHub Search API.
@@ -174,7 +173,7 @@ def fetch_open_meteo_weather():
     return result
 
 
-# ── Main ──────────────────────────────────────────────────────────────────────
+# ── Main ─────────────────────────────────────────────────────────────────────
 
 def main():
     print("=" * 55)
